@@ -1,9 +1,8 @@
 package abstractMethod;
 
-public class Horse extends Animal{
-
-    public Horse(String name, int age){
-        this.name= name;
+public class Goat extends Animal{
+    public Goat(String name, int age) {
+        this.name = name;
         this.age = age;
     }
 
@@ -14,11 +13,11 @@ public class Horse extends Animal{
 
     @Override
     void canDrink() {
-        System.out.println("The horse "+ name + " can drink");
+        System.out.println("The horse "+ name + "can drink" + ", age "+ age);
     }
 
     @Override
     void canEat() {
-
+        System.out.println("The horse "+ name + "can eat" + ", age "+ age);
     }
 }

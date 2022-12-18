@@ -14,8 +14,14 @@ public class MainAbstractMethod {
         cat2.run();
         cat2.canDrink();
 
-        Horse horse = new Horse("Supersut");
+        Horse horse = new Horse("Supersut", 3);
         horse.run();
         horse.canDrink();
+
+        Goat goat = new Goat("Mbek", 4);
+        goat.run();
+        goat.canEat();
+        goat.canDrink();
+
     }
 }

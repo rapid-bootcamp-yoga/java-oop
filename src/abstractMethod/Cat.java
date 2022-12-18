@@ -5,6 +5,7 @@ public class Cat extends Animal {
         this.name = name;
     }
 
+
     @Override
     void run() {
         System.out.println("The cat " + name + ", can run");
@@ -13,5 +14,10 @@ public class Cat extends Animal {
     @Override
     void canDrink() {
         System.out.println("The cat "+ name + " can drink");
+    }
+
+    @Override
+    void canEat() {
+
     }
 }

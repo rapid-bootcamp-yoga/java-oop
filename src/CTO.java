@@ -8,4 +8,17 @@ public class CTO extends Person {
         this.company = company;
         this.pegawaiId = pegawaiId;
     }
+
+    @Override
+    public String toString() {
+        return "CTO{" +
+                "company='" + company + '\'' +
+                ", pegawaiId=" + pegawaiId +
+                ", id=" + id +
+                ", name='" + name + '\'' +
+                ", gender='" + gender + '\'' +
+                ", address='" + address + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
