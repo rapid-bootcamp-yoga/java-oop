@@ -12,5 +12,6 @@ public class MainLogicInterface {
 
         LogicInterface logic02Soal01 = new Logic02Soal01Impl(new BasicLogika(8));
         logic02Soal01.cetakArray();
+        
     }
 }
